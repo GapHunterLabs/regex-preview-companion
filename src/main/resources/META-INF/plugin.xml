@@ -1,0 +1,32 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>dev.gaphunter.regexpreviewcompanion</id>
+    <name>Regex Preview Companion</name>
+    <vendor>Gap Hunter Labs</vendor>
+    <description><![CDATA[
+        <p>A tool window with a pattern field and a sample-text area --
+        type a regex, type or paste sample text, and every match is
+        highlighted live as you type, with a real match count. Case
+        insensitive, multiline, and dot-all flags are real checkboxes,
+        not something you have to remember inline syntax for. An
+        invalid pattern shows the real
+        <code>PatternSyntaxException</code> message instead of just
+        going blank.</p>
+        <p>Ports a pattern that's genuinely popular elsewhere
+        (standalone regex testers like regex101 are a daily tool for
+        many developers) directly into the IDE, with no real
+        equivalent already in JetBrains Marketplace -- confirmed by
+        search before building, not assumed.</p>
+        <p>Self-contained -- a Swing panel with
+        <code>java.util.regex</code>, never hooked into the IDE's own
+        highlighting pipeline. 100% local -- no network call, no
+        account, no telemetry.</p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Regex Preview" secondary="true" anchor="bottom"
+                    factoryClass="dev.gaphunter.regexpreviewcompanion.toolwindow.RegexPreviewToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
