@@ -27,6 +27,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Regex Preview" secondary="true" anchor="bottom"
+                    icon="/icons/toolWindow.svg"
                     factoryClass="dev.gaphunter.regexpreviewcompanion.toolwindow.RegexPreviewToolWindowFactory"/>
     </extensions>
 </idea-plugin>
