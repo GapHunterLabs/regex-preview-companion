@@ -12,8 +12,7 @@ Ports a pattern that's genuinely popular elsewhere (standalone regex
 testers are a daily tool for many developers) directly into the IDE,
 with no real equivalent already in JetBrains Marketplace (confirmed by
 search before building this, not assumed). A deliberate "port a proven
-concept" bet — see `CONSTITUTION.md` §1 for the documented-exception
-discipline this follows (same treatment as Refactor Simulator/Bean
+concept" bet — the same documented-exception discipline this follows (same treatment as Refactor Simulator/Bean
 Copy Companion and the other plugins built this same session).
 
 ## Why built this way
