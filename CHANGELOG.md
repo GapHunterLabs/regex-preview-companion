@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [0.1.3]
+
+### Fixed
+
+- Review/star CTA now links to this plugin's own Marketplace
+  reviews page instead of the vendor's generic plugin list.
+
 ## [0.1.2]
 
 ### Added
@@ -31,7 +38,8 @@
 - Invalid patterns show the real `PatternSyntaxException` message
   instead of a silent blank.
 
-[Unreleased]: https://github.com/GapHunterLabs/regex-preview-companion/compare/0.1.2...HEAD
+[Unreleased]: https://github.com/GapHunterLabs/regex-preview-companion/compare/0.1.3...HEAD
+[0.1.3]: https://github.com/GapHunterLabs/regex-preview-companion/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/GapHunterLabs/regex-preview-companion/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/GapHunterLabs/regex-preview-companion/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/GapHunterLabs/regex-preview-companion/commits/0.1.0
