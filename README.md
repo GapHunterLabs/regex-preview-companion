@@ -6,6 +6,12 @@ match is highlighted live as you type, with a real match count. Case
 insensitive, multiline, and dot-all flags are real checkboxes, not
 something you have to remember inline syntax for.
 
+![Regex Preview Companion: test a regex against real text inside the IDE, live](docs/media/hero.gif)
+
+Each feature on its own:
+[Live matches](docs/media/01-live-matches.gif) ·
+[Invalid patterns](docs/media/02-invalid-pattern.gif)
+
 ## Why it exists
 
 Ports a pattern that's genuinely popular elsewhere (standalone regex
