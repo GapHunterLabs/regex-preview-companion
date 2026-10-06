@@ -1,6 +1,6 @@
 # Privacy Policy — Regex Preview Companion
 
-**Effective date:** 2026-08-14
+**Effective date:** 2026-10-06
 
 Regex Preview Companion is a Gap Hunter Labs plugin for IntelliJ
 Platform IDEs. This policy is short because the plugin's design makes
@@ -8,12 +8,17 @@ it short: there is nothing to disclose beyond what's below.
 
 ## What this plugin collects
 
-**Nothing.** Regex Preview Companion does not collect, store,
-transmit, or sell any data — no source code, no file contents, no
+**Nothing.** Regex Preview Companion does not collect, transmit, or sell any data — no source code, no file contents, no
 usage analytics, no telemetry, no crash reports, no personally
 identifiable information. The pattern and sample text you type into
 the tool window exist only in that window's own memory for as long as
 the IDE is open.
+
+## What it keeps on your machine
+
+To decide when to show its one-time rating prompt, the plugin keeps two values
+in the IDE's own settings on your computer: how many findings it has shown and
+whether you have answered the prompt. Neither is ever sent anywhere.
 
 ## Network access
 
